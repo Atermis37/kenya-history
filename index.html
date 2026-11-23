@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101512">
+  <meta name="description" content="A slow, immersive journey through Kenya's history, communities and culture, with every claim tied to a source.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kenya, told slowly: A living history">
+  <meta property="og:description" content="A journey through Kenya's history, communities and culture, with sources and open research gaps.">
+  <!-- After deploying, change this to the full URL, e.g. https://you.github.io/kenya-history/assets/og.png -->
+  <meta property="og:image" content="assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <title>Kenya, told slowly — A living history</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23f3f0e8'/%3E%3Ctext x='6' y='25' font-size='26' font-family='Georgia' font-weight='700' fill='%23101512'%3EK%3C/text%3E%3Ccircle cx='26' cy='25' r='2.5' fill='%23bb2636'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Kenya, told slowly home">
+        <span class="brand-mark">K<span>.</span></span><span class="brand-name">KENYA, TOLD SLOWLY</span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="#timeline">The journey</a>
+        <a href="#communities">Communities</a>
+        <a href="#culture">Culture</a>
+        <a href="sources.html">Sources</a>
+      </div>
+      <div class="nav-era"><span class="status-dot"></span><span id="era">A living history</span></div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" data-era="A living history">
+      <div class="hero-grid"></div>
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> AN OPEN HISTORY OF KENYA</p>
+          <h1>Kenya,<br><em>told slowly.</em></h1>
+          <p class="hero-description">A journey through the people, places and moments that shaped a country. Not one story, but many stories living side by side.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#timeline">Explore the journey <span>↘</span></a>
+            <a class="text-link" href="#communities">Meet the communities</a>
+          </div>
+          <div class="hero-meta"><span>47 COUNTIES</span><span class="meta-divider"></span><span>MANY HISTORIES</span><span class="meta-divider"></span><span>ONE COUNTRY</span></div>
+        </div>
+
+        <div class="hero-art" role="img" aria-label="Illustration of an acacia tree, mountains and a red sun over the Kenyan landscape">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="sun"></div>
+          <div class="mountain mountain-back"></div><div class="mountain mountain-front"></div>
+          <div class="land-layer"></div>
+          <svg class="acacia" viewBox="0 0 300 330" aria-hidden="true">
+            <path d="M145 315 C142 260 157 220 151 180 C149 155 137 135 142 105" fill="none" stroke="#B78B57" stroke-width="13" stroke-linecap="round"/>
+            <path d="M147 190 L110 143 M149 165 L190 120 M142 130 L115 93" fill="none" stroke="#B78B57" stroke-width="7" stroke-linecap="round"/>
+            <path d="M25 111 C32 72 73 65 98 79 C113 43 161 39 184 68 C223 47 267 73 269 107 C285 130 259 147 229 145 L64 145 C35 146 15 135 25 111Z" fill="#315B3F"/>
+            <path d="M73 105 C85 77 114 82 130 96 C148 64 178 73 191 98 C216 78 246 91 248 116 C250 134 223 138 204 137 L82 137 C55 137 54 119 73 105Z" fill="#47764C"/>
+            <circle cx="105" cy="99" r="5" fill="#77965C"/><circle cx="202" cy="107" r="4" fill="#77965C"/>
+          </svg>
+          <div class="art-caption"><span>01 / THE LAND</span><span>FROM THE BEGINNING</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SCROLL TO BEGIN</span><span class="scroll-arrow">↓</span><span class="hero-bottom-line"></span></div>
+    </section>
+
+    <section class="intro section-pad" data-era="The big picture">
+      <div class="container intro-layout">
+        <div class="section-index"><span class="index-number">01</span><span class="index-line"></span><span class="eyebrow">THE BIG PICTURE</span></div>
+        <div class="intro-text">
+          <h2>A country is never<br>just <em>one story.</em></h2>
+          <p>Kenya's history stretches across millions of years. It is a story of ancient landscapes, movement, trade, resistance, independence and change. It is also a story told through the languages, traditions and everyday lives of its people.</p>
+          <p>This is an evolving collection. Claims with a numbered footnote link to the source they come from. Anything marked <span class="badge-inline">SOURCE PENDING</span> is a draft that has not been verified yet.</p>
+        </div>
+        <div class="intro-stats">
+          <div class="stat"><strong>47</strong><span>COUNTIES</span></div>
+          <div class="stat"><strong>2010</strong><span>NEW CONSTITUTION</span></div>
+          <div class="stat"><strong>1963</strong><span>INDEPENDENCE</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="timeline-section section-pad" id="timeline">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> THE LONG JOURNEY</p><h2>Through <em>time.</em></h2></div>
+          <p class="section-intro">Follow the changing landscapes, societies and events that form part of Kenya's history.</p>
+        </div>
+
+        <div class="timeline">
+
+          <article class="chapter" data-a="#18231d" data-b="#263d2c" data-era="Deep time">
+            <div class="chapter-number"><span>01</span><span class="chapter-line"></span><span class="chapter-date">DEEP TIME</span></div>
+            <div class="chapter-copy">
+              <p class="eyebrow">BEFORE THE NATIONS</p>
+              <h3>The <em>cradle.</em></h3>
+              <p>Long before modern borders, the landscapes of present-day Kenya were home to ancient human ancestors. The fossil-rich sites around Lake Turkana have helped researchers understand human evolution.</p>
+              <div class="chapter-fact"><span class="fact-mark">01</span>
+                <p><strong>Koobi Fora</strong><br>On the east shore of Lake Turkana, its sediments span about five to one million years. According to the National Museums of Kenya, it produced a Homo erectus skull about 1.6 million years old and, by 1994, about 200 hominid specimens. It is part of Lake Turkana National Parks, a UNESCO World Heritage Site. <a class="fn" href="sources.html#s1">[1]</a></p></div>
+              <p class="pending">The Turkana Boy skeleton, found at Nariokotome on the west shore in 1984, is the best-known find in the region.</p>
+            </div>
+            <div class="chapter-visual visual-cradle">
+              <div class="visual-label">TURKANA BASIN / NORTHERN KENYA</div><div class="visual-sun"></div>
+              <div class="fossil-shape"><div class="fossil-skull"></div><div class="fossil-spine"></div></div>
+              <div class="visual-bottom-label">THE STORY BEGINS HERE</div>
+            </div>
+          </article>
+
+          <article class="chapter reverse" data-a="#17211e" data-b="#293b34" data-era="Movement and settlement">
+            <div class="chapter-number"><span>02</span><span class="chapter-line"></span><span class="chapter-date">MIGRATIONS</span></div>
+            <div class="chapter-copy">
+              <p class="eyebrow">MOVEMENT AND SETTLEMENT</p>
+              <h3>Peoples on<br>the <em>move.</em></h3>
+              <p class="pending">Over many centuries, different communities moved into and across the region. Historical accounts commonly discuss Cushitic-, Nilotic- and Bantu-speaking populations and their movements, interactions and settlement.</p>
+              <div class="chapter-fact"><span class="fact-mark">02</span>
+                <p><strong>Many journeys</strong><br>Migration histories are complex and should not be reduced to one simple timeline.</p></div>
+            </div>
+            <div class="chapter-visual visual-movement">
+              <div class="visual-label">MOVEMENT / INTERACTION / SETTLEMENT</div>
+              <div class="route route-one"></div><div class="route route-two"></div><div class="route route-three"></div>
+              <div class="route-point point-one"></div><div class="route-point point-two"></div><div class="route-point point-three"></div>
+              <div class="movement-word">MANY<br>JOURNEYS</div><div class="visual-bottom-label">A REGION IN MOTION</div>
+            </div>
+          </article>
+
+          <article class="chapter" data-a="#1b2221" data-b="#293e42" data-era="The coast and the ocean">
+            <div class="chapter-number"><span>03</span><span class="chapter-line"></span><span class="chapter-date">COASTAL HISTORY</span></div>
+            <div class="chapter-copy">
+              <p class="eyebrow">THE INDIAN OCEAN WORLD</p>
+              <h3>The coast<br>looks <em>outward.</em></h3>
+              <p class="pending">Kenya's coast became part of a wider Indian Ocean world. Coastal towns developed through trade, migration, cultural exchange and local histories. Swahili culture grew from these long interactions.</p>
+              <div class="chapter-fact"><span class="fact-mark">03</span>
+                <p><strong>Fort Jesus</strong><br>The Portuguese built the fort in Mombasa from 1593, on a coral ridge at the harbour entrance, to a design by the Italian engineer Batista Cairato. Omani Arabs attacked it from 1696 to 1698. UNESCO listed it as a World Heritage Site in 2011. <a class="fn" href="sources.html#s2">[2]</a></p></div>
+            </div>
+            <div class="chapter-visual visual-coast">
+              <div class="visual-label">MOMBASA / INDIAN OCEAN</div><div class="coast-sun"></div><div class="coast-water"></div>
+              <div class="coast-building building-one"></div><div class="coast-building building-two"></div><div class="coast-building building-three"></div>
+              <div class="coast-wave wave-one"></div><div class="coast-wave wave-two"></div>
+              <div class="visual-bottom-label">WHERE WORLDS MET</div>
+            </div>
+          </article>
+
+          <article class="chapter reverse" data-a="#201918" data-b="#492b28" data-era="Colonial rule">
+            <div class="chapter-number"><span>04</span><span class="chapter-line"></span><span class="chapter-date">LATE 19TH–20TH CENTURY</span></div>
+            <div class="chapter-copy">
+              <p class="eyebrow">COLONIAL OCCUPATION</p>
+              <h3>The railway<br>and the <em>colony.</em></h3>
+              <p class="pending">British colonial rule transformed land ownership, labour, political authority and everyday life. A railway connected the coast to the interior while serving colonial economic and administrative interests.</p>
+              <div class="chapter-fact"><span class="fact-mark red-mark">04</span>
+                <p><strong>The protectorate</strong><br>Britain proclaimed its protectorate on 1 July 1895. Fort Jesus in Mombasa was converted into a prison. <a class="fn" href="sources.html#s2">[2]</a></p></div>
+              <p class="pending">The railway reached Kisumu in 1901, Nairobi began as a railway depot, and Kenya became a Crown Colony in 1920.</p>
+            </div>
+            <div class="chapter-visual visual-railway">
+              <div class="visual-label">THE RAILWAY / COLONIAL PERIOD</div><div class="railway-sun"></div>
+              <div class="railway-track"><div class="track-line"></div><div class="track-line second"></div>
+                <div class="track-sleeper"></div><div class="track-sleeper"></div><div class="track-sleeper"></div><div class="track-sleeper"></div><div class="track-sleeper"></div><div class="track-sleeper"></div></div>
+              <div class="railway-word">A CHANGING<br>LANDSCAPE</div><div class="visual-bottom-label">POWER / LAND / LABOUR</div>
+            </div>
+          </article>
+
+          <article class="chapter" data-a="#201716" data-b="#512a2b" data-era="The struggle for freedom">
+            <div class="chapter-number"><span>05</span><span class="chapter-line"></span><span class="chapter-date">RESISTANCE AND INDEPENDENCE</span></div>
+            <div class="chapter-copy">
+              <p class="eyebrow">THE FIGHT FOR FREEDOM</p>
+              <h3>The struggle<br>for <em>freedom.</em></h3>
+              <p>Resistance to colonial rule took many forms across the country. The Mau Mau movement, which began among the Kikuyu, became a major part of the struggle that led to independence in 1963. <a class="fn" href="sources.html#s3">[3]</a></p>
+              <div class="chapter-fact"><span class="fact-mark red-mark">05</span>
+                <p><strong>The Emergency</strong><br>The movement was banned in 1950. In October 1952 the colonial government declared a state of emergency. Britannica reports more than 11,000 rebels killed by the end of 1956, about 100 Europeans and 2,000 African loyalists, and more than 20,000 Kikuyu held in detention camps. <a class="fn" href="sources.html#s3">[3]</a></p></div>
+              <div class="chapter-fact"><span class="fact-mark red-mark">06</span>
+                <p><strong>The 2013 settlement</strong><br>On 6 June 2013 the British Government announced an out-of-court settlement: a statement of regret, damages of KSh 330,000 each to 5,228 claimants, and a contribution to a monument for victims of colonial-era torture. <a class="fn" href="sources.html#s4">[4]</a></p></div>
+              <p class="pending">Other resistance leaders include Koitalel arap Samoei (killed in 1905) and Mekatilili wa Menza, who led the Giriama in 1913–14.</p>
+            </div>
+            <div class="chapter-visual visual-freedom">
+              <div class="visual-label">RESISTANCE / MEMORY / INDEPENDENCE</div><div class="freedom-sun"></div>
+              <div class="freedom-figure figure-one"></div><div class="freedom-figure figure-two"></div><div class="freedom-figure figure-three"></div>
+              <div class="freedom-word">RESISTANCE<br>REMEMBERED</div><div class="visual-bottom-label">1952 – 1963</div>
+            </div>
+          </article>
+
+          <article class="chapter reverse" data-a="#17231c" data-b="#294a36" data-era="The republic">
+            <div class="chapter-number"><span>06</span><span class="chapter-line"></span><span class="chapter-date">1963–TODAY</span></div>
+            <div class="chapter-copy">
+              <p class="eyebrow">A COUNTRY STILL BECOMING</p>
+              <h3>A republic<br>of <em>47.</em></h3>
+              <p>The 2010 Constitution declares Kenya a sovereign, multi-party republic divided into 47 counties, with national and county governments that are distinct and interdependent. <a class="fn" href="sources.html#s5">[5]</a></p>
+              <div class="chapter-fact"><span class="fact-mark green-mark">07</span>
+                <p><strong>What the Constitution says</strong><br>Kiswahili is the national language, and Kiswahili and English are the official languages. There is no state religion. Article 11 recognises culture as the foundation of the nation. Madaraka Day (1 June), Mashujaa Day (20 October) and Jamhuri Day (12 December) are national days. <a class="fn" href="sources.html#s5">[5]</a></p></div>
+              <p class="pending">Wangari Maathai won the Nobel Peace Prize in 2004, and M-Pesa launched in 2007.</p>
+            </div>
+            <div class="chapter-visual visual-republic">
+              <div class="visual-label">KENYA / THE REPUBLIC</div><div class="republic-sun"></div>
+              <div class="republic-circle circle-one"></div><div class="republic-circle circle-two"></div><div class="republic-circle circle-three"></div>
+              <div class="republic-word">47<br><span>COUNTIES</span></div><div class="visual-bottom-label">A SHARED FUTURE</div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="communities-section section-pad" id="communities" data-era="Communities">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> PEOPLE AND IDENTITY</p><h2>Many peoples.<br><em>Many stories.</em></h2></div>
+          <p class="section-intro">Kenya's communities carry different languages, histories, traditions and experiences. Explore a starting collection of community profiles.</p>
+        </div>
+        <div class="community-toolbar"><p>EXPLORE BY REGION</p><div class="filters" id="filters" role="group" aria-label="Filter communities by region"></div></div>
+        <div class="community-grid" id="grid" aria-live="polite"></div>
+        <p class="community-note">These profiles are drafts. They have not been checked against published sources or reviewed by members of each community, and they do not describe every sub-group or tradition.</p>
+      </div>
+    </section>
+
+    <section class="culture-section section-pad" id="culture" data-era="Culture">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> EVERYDAY KENYA</p><h2>Culture is<br><em>everywhere.</em></h2></div>
+          <p class="section-intro">Culture is not frozen in time. It lives in language, food, music, movement, shared values and new ideas.</p>
+        </div>
+        <div class="culture-grid" id="culture-list"></div>
+      </div>
+    </section>
+
+    <section class="closing-section" data-era="The story continues">
+      <div class="closing-pattern"></div>
+      <div class="container closing-content">
+        <p class="eyebrow">THE STORY CONTINUES</p>
+        <h2>History is not<br>behind us. It is <em>with us.</em></h2>
+        <p>Every generation adds another chapter. This is an invitation to learn, question, remember and keep the conversation going.</p>
+        <a class="button button-light" href="sources.html">Visit the reference desk <span>↗</span></a>
+      </div>
+      <div class="closing-flag" aria-hidden="true"><span></span><span></span><span></span></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <a class="brand" href="index.html"><span class="brand-mark">K<span>.</span></span><span class="brand-name">KENYA, TOLD SLOWLY</span></a>
+      <p>An evolving collection of Kenyan history and culture.</p>
+      <a class="footer-source" href="sources.html">Sources and references ↗</a>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 KENYA, TOLD SLOWLY</span><span>MADE TO LEARN. BUILT TO KEEP GROWING.</span></div>
+  </footer>
+
+  <dialog class="community-dialog" id="dlg" aria-labelledby="dlg-t">
+    <form method="dialog"><button class="dialog-close" aria-label="Close community details">×</button></form>
+    <div class="dialog-content">
+      <p class="eyebrow" id="dlg-r">COMMUNITY PROFILE</p>
+      <h2 id="dlg-t">Community name</h2>
+      <div class="dialog-rule"></div>
+      <p id="dlg-b"></p>
+      <p class="dialog-disclaimer">Draft profile. Not yet checked against published sources or reviewed by members of this community. Claims marked "source pending" are unverified.</p>
+    </div>
+  </dialog>
+</body>
+</html>
