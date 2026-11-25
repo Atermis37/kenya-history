@@ -75,6 +75,16 @@
     $("#dlg-t").textContent = c.n;
     $("#dlg-r").textContent = `${c.r.toUpperCase()} / DRAFT PROFILE`;
     $("#dlg-b").textContent = c.b;
+    const srcEl = $("#dlg-s");
+    srcEl.replaceChildren();
+    if (c.src && c.src.length) {
+      srcEl.append("SOURCES ");
+      c.src.forEach((n) => {
+        const a = Object.assign(document.createElement("a"), { className: "fn", href: `sources.html#s${n}`, textContent: `[${n}]` });
+        a.setAttribute("aria-label", `Source ${n}`);
+        srcEl.append(a, " ");
+      });
+    }
     if (typeof dialog.showModal === "function") dialog.showModal();
   }
 
